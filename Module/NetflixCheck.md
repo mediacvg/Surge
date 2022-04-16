@@ -11,6 +11,10 @@ https://github.com/DivineEngine/Profiles/tree/master/Surge
 - 3:**策略组应当为完全的子策略组嵌套且模式应当为select 你不应放置任何单独节点** 否则将失去效果 你可以隐藏你的子策略组
 - 4:你可以调整cron代码以控制节点刷新的频率 但不宜过于频繁
 - 5:参数部分与老版本相同
+- 你可以配置捷径自动化实现打开Netflix自动检测
+
+*配置自动化后可以根据需要减少cron执行频率甚至你可以删除cron脚本
+*NetflixShortcut相对于NetflixChecker仅增加一项通知弹窗，如果你不想看到通知 捷径执行的脚本名称应当为NetflixChecker
 
 
 ### 老版本
