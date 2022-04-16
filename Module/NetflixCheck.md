@@ -13,8 +13,8 @@ https://github.com/DivineEngine/Profiles/tree/master/Surge
 - 5:参数部分与老版本相同
 - 你可以配置捷径自动化实现打开Netflix自动检测
 
-// 配置自动化后可以根据需要减少cron执行频率甚至你可以删除cron脚本
-// NetflixShortcut相对于NetflixChecker仅增加一项通知弹窗，如果你不想看到通知 捷径执行的脚本名称应当为NetflixChecker
+#### 配置自动化后可以根据需要减少cron执行频率甚至你可以删除cron脚本
+#### NetflixShortcut相对于NetflixChecker仅增加一项通知弹窗，如果你不想看到通知 捷径执行的脚本名称应当为NetflixChecker
 
 
 ### 老版本
