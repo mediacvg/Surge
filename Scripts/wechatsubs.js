@@ -11,7 +11,7 @@
 【Surge】
 -----------------
 [Script]
-公众号监控 = type=cron,cronexp=5 0 * * *,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/wechatsubs/wechatsubs.js
+公众号监控 = type=cron,cronexp=5 0 * * *,script-path=https://raw.githubusercontent.com/mediacvg/Surge/main/Scripts/wechatsubs.js
 
 【Icon】
 透明：https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/wechat_tran.png
@@ -21,8 +21,8 @@
 const $ = new API("Wechatsubs", true);
 const ERR = MYERR();
 
-var keyword1 = [""]; //👈本地关键词在这里设置。
-var keyword2 = [""];
+var keyword1 = ["演出"]; //👈本地关键词在这里设置。
+var keyword2 = ["折子戏"];
 $.refreshtime = 6; //重复内容默认在6小时内不再通知，之后清空，可自行修改
 $.saveditem = [];
 
